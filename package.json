@@ -1,0 +1,29 @@
+{
+	"name": "vue-cmc-components",
+	"version": "1.0.0",
+	"description": "Pacote de componentes para usar em sistemas CMC",
+	"main": "index.js",
+	"scripts": {
+    	"start": "webpack-dev-server --color --progress --config config/webpack.config.js"
+	},
+	"keywords": [
+		"vue"
+	],
+	"author": "Alexandre Odoni",
+	"license": "MIT",
+
+	"dependencies": {
+		"vue": "^2.5.17"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.4",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-2": "^6.24.1",
+		"css-loader": "^1.0.0",
+		"vue-loader": "^15.4.2",
+		"vue-style-loader": "^4.1.2",
+		"vue-template-compiler": "^2.5.17",
+		"webpack": "^4.23.0"
+	}
+}
